@@ -1,0 +1,23 @@
+{
+  "name": "alberto_backend",
+  "version": "1.0.0",
+  "description": "Creating Express JS Backend for React Native app",
+  "main": "index.js",
+  "repository": "https://github.com/moses-20/alberto-backend",
+  "author": "moozeire",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
